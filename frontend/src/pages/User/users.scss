@@ -1,0 +1,26 @@
+.user-list {
+  margin: 30px auto;
+  max-width: 600px;
+  list-style-type: none;
+  padding: 0;
+  li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    &:hover{
+      border: 1px solid #3f4d67;
+    }
+
+    .deleteButton{
+      padding: 10px;
+      font-size: 13px;
+      color: white;
+      background-color: red;
+      border: none;
+    }
+  }
+
+}

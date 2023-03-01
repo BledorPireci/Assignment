@@ -1,0 +1,53 @@
+.register-card {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  h2 {
+    margin-top: 0;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      margin-bottom: 5px;
+      text-align: left;
+      display: block;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      font-size: 16px;
+      display: block;
+      width: 95%;
+      margin-top: 10px;
+    }
+
+    button[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #3e8e41;
+      }
+    }
+  }
+}
